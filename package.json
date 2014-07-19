@@ -1,0 +1,19 @@
+{
+  "name": "tsiminim",
+  "version": "0.0.1",
+  "description": "Reverse argv parser, turns an object into an arguments string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "argv",
+    "minimist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Node-Ops/tsiminim.git"
+  },
+  "author": "Wes Todd",
+  "license": "ISC"
+}
