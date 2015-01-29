@@ -4,7 +4,7 @@
   "description": "Reverse argv parser, turns an object into an arguments string",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R nyan -w --check-leaks"
   },
   "keywords": [
     "argv",
@@ -15,5 +15,9 @@
     "url": "git@github.com:Node-Ops/tsiminim.git"
   },
   "author": "Wes Todd",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "minimist": "^1.1.0",
+    "tape": "^3.4.0"
+  }
 }
